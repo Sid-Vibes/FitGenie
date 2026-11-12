@@ -1,0 +1,60 @@
+# ==============================
+# Environment variables & secrets
+# ==============================
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*secret*
+*credentials*
+
+# ==============================
+# Java / Spring Boot / Maven
+# ==============================
+target/
+*.class
+*.jar
+*.war
+*.log
+
+# ==============================
+# Python / FastAPI
+# ==============================
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# ==============================
+# IDEs
+# ==============================
+.idea/
+.vscode/
+*.iml
+
+# ==============================
+# Operating system
+# ==============================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==============================
+# Temporary files
+# ==============================
+*.tmp
+*.bak
+*.swp
+
+# ==============================
+# Database files
+# ==============================
+*.sqlite
+*.sqlite3
